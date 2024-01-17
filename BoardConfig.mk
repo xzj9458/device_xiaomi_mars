@@ -9,3 +9,5 @@ DEVICE_PATH := device/xiaomi/mars
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Include proprietary files
+include vendor/xiaomi/mars/BoardConfigVendor.mk
