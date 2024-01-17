@@ -14,6 +14,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+    $(LOCAL_PATH)/overlay-lineage
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mars/renoir-vendor.mk)
